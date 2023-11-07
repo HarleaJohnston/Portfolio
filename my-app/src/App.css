@@ -1,3 +1,13 @@
+@font-face {
+  font-family: HeaderFont;
+  src: url(./Fonts/Beachfly\ Free\ Trial.ttf);
+}
+
+@font-face {
+  font-family: HeaderFont2;
+  src: url(./Fonts/Bellerose.ttf)
+}
+
 .webTop{
   background-image: url("./Imgs/BackgroundImg4.png");
   background-repeat: no-repeat;
@@ -15,4 +25,12 @@
   background-image: url("./Imgs/BoxImg.png");
   background-repeat: no-repeat;
   width: 700px;
+}
+
+.HF{
+  font-family: HeaderFont;
+}
+
+.HF2{
+  font-family: HeaderFont2;
 }
