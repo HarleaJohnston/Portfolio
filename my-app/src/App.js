@@ -26,6 +26,9 @@ function App() {
           </div>
         </div>
       </div>
+    <div className="spacer"></div>
+    <img className="collageSize" src={process.env.PUBLIC_URL + "/collage.png"}/>
+
     </div>
   );
 }
