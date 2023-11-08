@@ -17,20 +17,44 @@
 }
 
 .imgSize{
-  width: 1000px
+  width: 800px
 }
 
 .introBox{
-  color: antiquewhite;
   background-image: url("./Imgs/BoxImg.png");
   background-repeat: no-repeat;
-  width: 700px;
+  width: 800px;
 }
 
 .HF{
   font-family: HeaderFont;
+  margin-bottom: -30px;
 }
 
 .HF2{
   font-family: HeaderFont2;
+}
+
+.introText{
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-right: 140px ;
+  padding: 2px;
+}
+
+.line{
+  background-color: black;
+  border-top: 3px solid black;
+}
+
+.about{
+  font-family: HeaderFont2;
+  margin-bottom: -10px;
+  margin-top: -3px;
+}
+
+.aboutMeBox{
+  width: 275px
 }
