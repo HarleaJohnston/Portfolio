@@ -41,9 +41,17 @@ function App() {
       </ul>
     </header>
 
+    <div>
+      <p>Education</p>
+    </div>
+
   </div>
     <div className="collage">
       <div className="spacer2"></div>
+    </div>
+
+    <div>
+      <p>Projects</p>
     </div>
 
     </div>

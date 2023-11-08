@@ -8,6 +8,10 @@
   src: url(./Fonts/Bellerose.ttf)
 }
 
+.App{
+  background-color: #758E5E;
+}
+
 .webTop{
   background-image: url("./Imgs/BackgroundImg.png");
   background-repeat: no-repeat;
