@@ -69,6 +69,6 @@
 .collage{
   background-image: url("./Imgs/collage.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
