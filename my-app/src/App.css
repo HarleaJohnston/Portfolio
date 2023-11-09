@@ -9,7 +9,7 @@
 }
 
 .App{
-  background-color: #758E5E;
+  background-color: #1a2421;
 }
 
 .webTop{
@@ -28,6 +28,7 @@
   background-image: url("./Imgs/BoxImg.png");
   background-repeat: no-repeat;
   width: 800px;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
 }
 
 .link{
@@ -64,15 +65,53 @@
   width: 275px
 }
 
+.navColor{
+  background-color: #CBC4AE;
+  color: #766B4E;
+}
 
+.titleFont{
+  font-family: HeaderFont;
+  color: #CBC4AE;
+  margin: 40px;
+}
 
 .spacer2{
-  height: 1200px;
+  height: 490px;
 }
 
 .collage{
   background-image: url("./Imgs/collage.png");
   background-repeat: no-repeat;
   background-size: contain;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
 }
 
+.schoolBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.schoolText{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 500px;
+  padding: 20px 20px;
+  margin: 100px;
+  background-color: #463E36;
+  border-radius: 7px;
+}
+
+.imgs{
+  width:600px;
+  padding: 20px 20px;
+  margin: 20px 20px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
