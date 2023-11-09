@@ -115,3 +115,48 @@ justify-content: space-around;}
   display: flex;
   justify-content: center;
 }
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactCenter{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactBox{
+  display: flex;
+  background-color: #CBC4AE;
+  width:1000px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+
+/* Carousel Styling */
+
+.infoCarousel {
+  width: 70%;
+  margin: auto;
+}
+
+.cardCarousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; 
+}
+
+.card {
+  flex: 0 0 300px; 
+  margin: 0 15px; 
+  scroll-snap-align: start;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
