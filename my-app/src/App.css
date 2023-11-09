@@ -18,6 +18,7 @@
   background-size: cover;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .imgSize{
@@ -65,10 +66,9 @@
   width: 275px
 }
 
-.navColor{
-  background-color: #CBC4AE;
-  color: #766B4E;
-}
+.container-fluid-nav div{
+  display: flex;
+justify-content: space-around;}
 
 .titleFont{
   font-family: HeaderFont;
