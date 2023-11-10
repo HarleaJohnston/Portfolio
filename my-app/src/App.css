@@ -72,7 +72,7 @@ justify-content: space-around;}
 
 .titleFont{
   font-family: HeaderFont;
-  color: #CBC4AE;
+  color: antiquewhite;
   margin: 40px;
 }
 
@@ -101,7 +101,8 @@ justify-content: space-around;}
   width: 500px;
   padding: 20px 20px;
   margin: 100px;
-  background-color: #463E36;
+  background-color: antiquewhite;
+  color: #463E36;
   border-radius: 7px;
 }
 
@@ -142,6 +143,8 @@ justify-content: space-around;}
   margin: 0 15px; 
   scroll-snap-align: start;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #463E36;
+  background-color: antiquewhite;
 }
 
 .card img {

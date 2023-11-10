@@ -3,7 +3,7 @@ function Education() {
     return (
       <div>
         <div className="center">
-          <h1 className="titleFont">Education</h1>
+          <h1 className="titleFont">~ Education ~</h1>
         </div>
           <div className="schoolBox">
             <div class="schoolText">
