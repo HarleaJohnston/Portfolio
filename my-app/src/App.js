@@ -13,6 +13,9 @@ function App() {
 
   return (
     <div className="App">
+      <head>
+        <header>Harlea's Portfolio </header>
+      </head>
       <PageTop/>
 
       <Skills/>

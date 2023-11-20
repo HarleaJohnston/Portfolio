@@ -2,6 +2,15 @@
 
 function PageTop() {
   const email = 'johnstonharlea@gmail.com';
+
+  const openPDF = () => {
+    // Replace 'your-pdf-file.pdf' with the actual filename of your PDF
+    const pdfUrl = './Resume.pdf';
+
+    // Open the PDF in a new tab/window
+    window.open(pdfUrl, '_blank');
+  };
+
   return (
     <div>
       <div className="webTop">
@@ -23,7 +32,7 @@ function PageTop() {
                 <p className="fontSize">Hello! I'm Harlea, a senior at Neumont College of Computer Science persuing my Bacholers in Web Development and Design. I'm dedicated to crafting seamless and responsive online experiences. My expertise lies in React, Javascript, HTML, and CSS, but I'm always eager to take on new challenges in the ever-evolving digital landscape. Let's collaborate and bring your digital vision to life.</p>
               </div>
               <span>
-                <button className="space">Resume</button>
+                <button className="space" onClick={openPDF}>Resume</button>
                 <a className="link" href={'https://www.linkedin.com/in/harlea-johnston-927722223'}>
                   <i class="bi bi-linkedin m-2"></i>
                 </a>
