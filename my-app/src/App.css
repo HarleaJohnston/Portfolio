@@ -164,5 +164,84 @@ justify-content: space-around;}
   width: 70%;
 }
 
+@media (min-width: 200px) and (max-width: 600px) {
+  .webTop {
+    background-size: auto; 
+  }
+
+  .imgSize {
+    width: 80%; 
+  }
+
+  .introBox {
+    width: 100%; 
+  }
+
+  .introText {
+    position: static; 
+    margin-top: 10%; 
+    width: 50%; 
+    text-align: left; 
+  }
+
+  .spacer, .spacer2 {
+    height: 100px; 
+  }
+
+  .schoolBox {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .schoolText {
+    width: 100%; 
+    margin: 20px; 
+  }
+
+  .imgs {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px; 
+  }
 
 
+}
+
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .webTop {
+    background-size: auto; 
+  }
+
+  .imgSize {
+    width: 80%; 
+  }
+
+  .introBox {
+    width: 100%; 
+  }
+
+  .introText {
+    position: static; 
+    margin-top: 10%; 
+    width: 50%; 
+    text-align: left; 
+  }
+
+  .spacer, .spacer2 {
+    height: 100px; 
+  }
+
+  .schoolText {
+    width: 100%; 
+    margin: 20px; 
+  }
+
+  .imgs {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px; 
+  }
+
+
+}
