@@ -76,6 +76,10 @@ justify-content: space-around;}
   margin: 40px;
 }
 
+.spacer{
+  height: 200px;
+}
+
 .spacer2{
   height: 490px;
 }
@@ -150,4 +154,8 @@ justify-content: space-around;}
 .card img {
   max-width: 100%;
   height: auto;
+}
+
+.chart{
+  width: 1000px;
 }
