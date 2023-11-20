@@ -15,11 +15,13 @@ function App() {
     <div className="App">
       <PageTop/>
 
+      <div className="spacer2"></div>
+
+      <Collage/>
+
       <Education/>
 
       <Skills/>
-
-      <Collage/>
 
       <Projects/>
 
