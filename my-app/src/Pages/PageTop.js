@@ -5,7 +5,7 @@ function PageTop() {
 
   const openPDF = () => {
     // Replace 'your-pdf-file.pdf' with the actual filename of your PDF
-    const pdfUrl = './Resume.pdf';
+    const pdfUrl = './path/to/Resume.pdf';
 
     // Open the PDF in a new tab/window
     window.open(pdfUrl, '_blank');
