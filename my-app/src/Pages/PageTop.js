@@ -4,10 +4,7 @@ function PageTop() {
   const email = 'johnstonharlea@gmail.com';
 
   const openPDF = () => {
-    // Replace 'your-pdf-file.pdf' with the actual filename of your PDF
-    const pdfUrl = './path/to/Resume.pdf';
-
-    // Open the PDF in a new tab/window
+    const pdfUrl = './Resume.pdf';
     window.open(pdfUrl, '_blank');
   };
 
