@@ -18,11 +18,11 @@ function App() {
       </head>
       <PageTop/>
 
+      <Collage/>
+
       <Skills/>
 
       <Projects/>
-
-      <Collage/>
 
       <Education/>
 
