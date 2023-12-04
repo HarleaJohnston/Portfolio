@@ -17,7 +17,9 @@ function App() {
         <header>Harlea's Portfolio </header>
       </head>
       <PageTop/>
-      <div className="spacer"></div>
+      
+      <br/>
+      <br/>
 
       <Collage/>
 
