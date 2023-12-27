@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "image": "./CutTheBS.png",
+      "title": "Cut the BS",
+      "description": "Site that gives users access to a recipe API. Cut the BS's goal is to provide users with recipes without the stories that go with most online recipes.",
+      "link": "https://github.com/NovaGamer368/Cut-the-BS.git",
+      "proType": "Group"
+    },
+    {
+      "id": 2,
+      "image": "./UnhelpfulAI.png",
+      "title": "Unhelpful AI",
+      "description": "The Base of a Virtual Assistant. It can search Wikipedia, Tell Jokes, and Navigate to websites like Spotify.",
+      "link": "https://github.com/HarleaJohnston/UnhelpfulAI.git",
+      "proType": "Group"
+    },
+    {
+      "id": 3,
+      "image": "./WO.png",
+      "title": "Whendigo Occurrences",
+      "description": "Whendigo Occurrences is a Blog ARG. This blog allows users to explore the site looking for clues as to what is happening in Whendigo, Missouri.",
+      "link": "https://github.com/HarleaJohnston/Capstone_WhendigoOccurances",
+      "proType": "Single"
+    },
+    {
+      "id": 4,
+      "image": "./WO.png",
+      "title": "Annex",
+      "description": "Is the Prototype of a library for Multi-Media Collectors. It is a library app that will help keep your collections in order and prevent spending money on things you already own.",
+      "link": "",
+      "proType": "Group"
+    }
+  ]

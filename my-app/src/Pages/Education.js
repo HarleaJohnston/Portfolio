@@ -12,13 +12,13 @@ function Education() {
             </div>
 
             <div>
-            <img className="imgs" src={process.env.PUBLIC_URL + "/SchoolImg.png"}/>
+            <img className="imgs" src={process.env.PUBLIC_URL + "./imgs/SchoolImg.png"}/>
             </div>
           </div>
 
           <div className="schoolBox">
             <div>
-            <img className="imgs" src={process.env.PUBLIC_URL + "/SchoolImg2.png"}/>
+            <img className="imgs" src={process.env.PUBLIC_URL + "./imgs/SchoolImg2.png"}/>
             </div>
 
             <div class="schoolText">
