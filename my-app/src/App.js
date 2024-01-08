@@ -8,6 +8,7 @@ import Skills from './Pages/Skills';
 import Collage from './Pages/Collage';
 import Projects from './Pages/Projects';
 import Footer from './Pages/Footer'
+import AboutMe from './Pages/AboutMe'
 
 function App() {
 
@@ -17,11 +18,12 @@ function App() {
         <header>Harlea's Portfolio </header>
       </head>
       <PageTop/>
-      
-      <br/>
+
       <br/>
 
       <Collage/>
+
+      <AboutMe/>
 
       <Skills/>
 

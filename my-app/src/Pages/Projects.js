@@ -1,4 +1,5 @@
-
+import React from 'react';
+import { Carousel, Card } from 'react-bootstrap';
 
 function Projects() {
 
@@ -9,33 +10,33 @@ function Projects() {
     { id: 4, image: './imgs/WO.png', title: 'Annex', description: 'Is the Prototype of a library for Mult-Media Collectors. Is an library app that will help keep your collections in order and prevent spending money on things you already own', link: 'https://github.com/HarleaJohnston/Capstone_WhendigoOccurances', proType: 'Single' },
   ];
 
-    return (
-      <div>
-        <div className="center">
-            <h2 className="titleFont">~ Projects ~</h2>
-        </div>
-
-        <div className="infoCarousel">
-          <div className="cardCarousel">
-            {data.map((item) => (
-              <div key={item.id} className="card">
-                <img src={process.env.PUBLIC_URL + item.image} className="card-img-top" alt={item.title} />
-                <div className="card-body">
-                  <h5 className="card-title">{item.title}</h5>
-                  <p>Project Type: {item.proType}</p>
-                  <p className="card-text">{item.description}</p>
-                  <a href={item.link}>{item.link}</a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="spacer"></div>
-
+  return (
+    <div>
+      <div className="center">
+        <h2 className="titleFont">~ Projects ~</h2>
       </div>
-  
-    );
-  }
+
+      <Carousel className="infoCarousel">
+        {data.map((item) => (
+          <Carousel.Item key={item.id}>
+            <Card className="card">
+              <Card.Img variant="top" src={process.env.PUBLIC_URL + item.image} alt={item.title} />
+              <Card.Body>
+                <Card.Title>{item.title}</Card.Title>
+                <Card.Text>Project Type: {item.proType}</Card.Text>
+                <Card.Text>{item.description}</Card.Text>
+                <Card.Link href={item.link}>{item.link}</Card.Link>
+              </Card.Body>
+            </Card>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+
+      <div className="spacer"></div>
+    </div>
+  );
+}
+
   
   export default Projects;
   
