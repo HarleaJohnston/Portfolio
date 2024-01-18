@@ -25,8 +25,6 @@ function App() {
 
       <AboutMe/>
 
-      <Skills/>
-
       <Projects/>
 
       <Education/>
