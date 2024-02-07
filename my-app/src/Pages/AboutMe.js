@@ -3,21 +3,14 @@ function AboutMe() {
 
     return (
       <div>
-        <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                <div class="col-md-4 d-flex align-items-center">
-                  <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24"></svg>
-                  </a>
-                    <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
-                </div>
-      
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use href="#twitter"></use></svg></a></li>
-                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use href="#instagram"></use></svg></a></li>
-                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use href="#facebook"></use></svg></a></li>
-                </ul>
-            </footer>
+        <div className="center">
+          <h1 className="titleFont">~ About Me ~</h1>
+        </div>
+        <div className="aboutBox">
+          <p class="schoolText">I grew up in a small town in the middle of nowhere Missouri. 
+            Where I fostered my interests in art and music. 
+            During my middle school years, a chance encounter led me to an all-girls programming club, opening the door to the captivating world of coding. With each line of code, I found a new avenue for expression and exploration, igniting a spark that would shape my future.
+            Throughout high school, my interests continued to evolve, drawing me deeper into the realms of graphic design and programming. Yet, it was during my senior year that my true calling revealed itself. As I delved into website development, I found myself utterly captivated, realizing that this was not merely a skill to master but a passion to pursue with unwavering determination. </p>
         </div>
       </div>
   

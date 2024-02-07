@@ -13,7 +13,7 @@ function Projects() {
   return (
     <div>
       <div className="center">
-        <h2 className="titleFont">~ Projects ~</h2>
+        <h1 className="titleFont">~ Projects ~</h1>
       </div>
 
       <Carousel className="infoCarousel">

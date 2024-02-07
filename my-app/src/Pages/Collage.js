@@ -6,7 +6,6 @@ function Collage() {
         <div className="collage">
             <div className="spacer2"></div>
         </div>
-
       </div>
   
     );

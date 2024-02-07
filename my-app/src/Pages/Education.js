@@ -8,7 +8,9 @@ function Education() {
           <div className="schoolBox">
             <div class="schoolText">
             <h2 className="HF"> Central High School</h2>
-            <p>Graduated from Central High School in 2021 with an A+ Scholarship and Honor Society Cords. Was in Marching and Concert band for 4 years, as well as Jazz for 3 years. Worked in Adobe and Illiustrator for 4 years and helping make designs for businesses, local politions, and everyday people. Whether it be t-shirts, hoodies, car decals, to political yard signs. Helped lead my section as a Senior and was called upon regularly by my graphic design teacher to take on bigger projects and to meet big dead lines with the products we were making. </p>
+            <p>In 2021, I graduated from Central High School with an A+ Scholarship and Honor Society Cords. During my time there, I was deeply involved in music, playing in the Marching and Concert bands for four years and exploring Jazz for three.
+              Alongside my musical pursuits, I developed my graphic design skills over four years, working with Adobe and Illustrator. I contributed to various projects, creating designs for businesses, local politicians, and individuals, ranging from t-shirts and hoodies to car decals and political yard signs.
+              As a senior, I took on leadership roles within my section and was regularly entrusted with important projects by my graphic design teacher</p>
             </div>
 
             <div>
@@ -23,7 +25,7 @@ function Education() {
 
             <div class="schoolText">
               <h2 className="HF">Neumont College of Computer Science</h2>
-              <p>While I am still attending Neumont untill Auguest of 2024. I am an Academic Coach for the school focusing on Web Based classes as well as English classes. I am the Secretary of the Pokémon Club.</p>
+              <p>While I am currently enrolled at Neumont University until August 2024, my involvement extends beyond academics. I proudly serve as an Academic Coach, specializing in web-based and English classes, supporting my peers in their educational journey. Additionally, I hold the role of Secretary in the Pokémon Club, where I contribute to fostering a vibrant community centered around shared interests and camaraderie.</p>
             </div>
           </div>
       </div>
