@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import PageTop from './Pages/PageTop.js';
-import Education from './Pages/Education';
 import Skills from './Pages/Skills';
 import Skills2 from './Pages/Skills2.js';
 import Collage from './Pages/Collage';
@@ -14,6 +13,7 @@ import MyNavbar from './Pages/MyNavBar';
 
 function App() {
   const isMobile = window.innerWidth <= 768;
+  
 
   return (
     <div className="App">
@@ -30,7 +30,7 @@ function App() {
         <AboutMe/>
       </section>
 
-      <section id='Skills'>
+{/*       <section id='Skills'>
         <div>
           {isMobile ? (
             <Skills2/>
@@ -38,14 +38,10 @@ function App() {
             <Skills/>
           )}
         </div>
-      </section>
+      </section> */}
 
       <section id='Projects'>
         <Projects/>
-      </section>
-
-      <section id='Education'>
-        <Education/>
       </section>
 
       <Footer/>
