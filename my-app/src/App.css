@@ -55,6 +55,9 @@
   color: #463E36;
 }
 
+
+
+
 .HF{
   font-family: HeaderFont;
 }
@@ -161,8 +164,33 @@ justify-content: space-around;}
 /* Carousel Styling */
 
 .infoCarousel {
-  width: 50%;
-  margin: auto;
+  width: 80%;
+  margin: 50px;
+}
+
+.card2{
+  width: 75%;
+  height: 400px;
+  background: #E9E2D0;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 25px ;
+  margin: 25px 25px;
+  border-radius: 7px;
+  margin-left: 175px;
+}
+
+.imgSize2{
+  display: flex;
+  width: 90%;
+  margin-top: -50px;
+  justify-content: center;
+
+}
+
+.infoSize{
+  width: 65%;
 }
 
 .cardCarousel {

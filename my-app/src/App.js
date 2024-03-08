@@ -30,16 +30,6 @@ function App() {
         <AboutMe/>
       </section>
 
-{/*       <section id='Skills'>
-        <div>
-          {isMobile ? (
-            <Skills2/>
-          ) : (
-            <Skills/>
-          )}
-        </div>
-      </section> */}
-
       <section id='Projects'>
         <Projects/>
       </section>
