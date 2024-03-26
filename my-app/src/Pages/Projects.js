@@ -7,7 +7,7 @@ const Projects = () => {
     { id: 3, image: './imgs/WO.png', title: 'Whendigo Occurrences', description: 'Whendigo Occurrences is an Blog ARG. This blog allows users to explore the site looking for clues as to what is happening in Whendigo, Missouri.', link: 'https://github.com/HarleaJohnston/Capstone_WhendigoOccurances', proType: 'Solo' },
     { id: 4, image: './imgs/3.png', title: 'Annex', description: `Is the Prototype of a library for Mult-Media Collectors. This library app's goal is to help keep your collections in order and prevent spending money on things you already own`, link: 'https://github.com/NovaGamer368/Add-The-BS', proType: 'Group' },
     { id: 5, image: './imgs/3.png', title: 'Add The BS', description: `Movie website with all the fixins `, link: 'https://github.com/NovaGamer368/Add-The-BS', proType: 'Group' },
-    { id: 6, image: './imgs/3.png', title: 'Annex: App', description: `Is a library for Mult-Media Collectors. This library app's goal is to help keep your collections in order and prevent spending money on things you already own`, link: 'https://github.com/HarleaJohnston/Annex', proType: 'Solo' },
+    { id: 6, image: './imgs/3.png', title: 'Annex: App', description: `Is a library for Mult-Media Collectors. This library app's goal is to help keep your collections in order and prevent spending money on things you already own`, link: 'https://github.com/HarleaJohnston/Annex', proType: 'Group' },
   ];
 
   
