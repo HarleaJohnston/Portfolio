@@ -12,8 +12,6 @@ import AboutMe from './Pages/AboutMe'
 import MyNavbar from './Pages/MyNavBar';
 
 function App() {
-  const isMobile = window.innerWidth <= 768;
-  
 
   return (
     <div className="App">
