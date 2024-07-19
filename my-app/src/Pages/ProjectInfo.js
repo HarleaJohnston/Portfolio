@@ -1,6 +1,6 @@
 
 
-function Projects() {
+function ProjectInfo() {
   
       return (
         <div>
@@ -10,5 +10,5 @@ function Projects() {
       );
     }
     
-    export default Projects;
+    export default ProjectInfo;
     

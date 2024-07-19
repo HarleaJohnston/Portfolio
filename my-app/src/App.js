@@ -22,8 +22,6 @@ function App() {
 
       <MyNavbar/>
 
-      <Collage/>
-
       <section id='AboutMe'>
         <AboutMe/>
       </section>
@@ -31,6 +29,10 @@ function App() {
       <section id='Projects'>
         <Projects/>
       </section>
+
+      <div className='spacer'></div>
+
+      <Collage/>
 
       <Footer/>
       
