@@ -65,7 +65,7 @@ const Projects = () => {
       description: 'Whendigo Occurrences is a Blog ARG. This blog allows users to explore the site looking for clues as to what is happening in Whendigo, Missouri.',
       link: 'https://github.com/HarleaJohnston/Capstone_WhendigoOccurances',
       proType: 'Solo',
-      images: ['./imgs/CutTheBS.png'],
+      images: ['./imgs/WO.png'],
       summary: {
         purpose: "Whendigo Occurrences is an alternate reality game blog designed to engage users in a narrative exploring mysterious events in Whendigo, Missouri.",
         technologyStack: {
@@ -87,7 +87,7 @@ const Projects = () => {
       description: `Is the Prototype of a library for Multi-Media Collectors. This library app's goal is to help keep your collections in order and prevent spending money on things you already own.`,
       link: 'https://github.com/NovaGamer368/Add-The-BS',
       proType: 'Group',
-      images: ['./imgs/CutTheBS.png'],
+      images: ['./imgs/Annex.png'],
       summary: {
         purpose: "Annex is a library app prototype designed for multi-media collectors to manage their collections and prevent unnecessary purchases.",
         technologyStack: {
@@ -109,7 +109,7 @@ const Projects = () => {
       description: `Movie website with all the fixins`,
       link: 'https://github.com/NovaGamer368/Add-The-BS',
       proType: 'Group',
-      images: ['./imgs/CutTheBS.png'],
+      images: ['./imgs/AddTheBS.png'],
       summary: {
         purpose: "Add The BS is a movie website designed to provide a complete movie-related experience, featuring various functionalities and content.",
         technologyStack: {
@@ -131,7 +131,7 @@ const Projects = () => {
       description: `Is a library for Multi-Media Collectors. This library app's goal is to help keep your collections in order and prevent spending money on things you already own.`,
       link: 'https://github.com/HarleaJohnston/Annex',
       proType: 'Group',
-      images: ['./imgs/CutTheBS.png'],
+      images: ['./imgs/Annex.png'],
       summary: {
         purpose: "Annex: App is a library app aimed at helping multi-media collectors manage their collections and prevent duplicate purchases. It includes both a web application and a mobile app.",
         technologyStack: {
