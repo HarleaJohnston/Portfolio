@@ -18,7 +18,9 @@ function App() {
       <head>
         <header>Harlea's Portfolio </header>
       </head>
-      <PageTop/>
+      <section id='Home'>
+        <PageTop/>
+      </section>
 
       <MyNavbar/>
 

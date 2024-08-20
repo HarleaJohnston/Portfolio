@@ -158,6 +158,7 @@ const Projects = () => {
   const handleBackClick = () => {
     setSelectedProject(null);
   };
+  
   if (selectedProject) {
     return (
       <div className="container">
@@ -242,7 +243,7 @@ const Projects = () => {
             <img src={card.image} className="card-img-top" alt={card.title} />
             <div className="card-body">
               <h5 className="card-title">
-                <a href="#" onClick={() => handleTitleClick(card.id)}>{card.title}</a>
+                <a href="#Projects" onClick={() => handleTitleClick(card.id)}>{card.title}</a>
               </h5>
               <label>Project Type:</label>
               <p className="card-text">{card.proType}</p>
