@@ -163,7 +163,7 @@ const Projects = () => {
     return (
       <div className="container">
         <button onClick={handleBackClick}>Back to Projects</button>
-        <div className="card" style={{ width: "100%", margin: "30px 0" }}>
+        <div className="card" style={{ width: "80%", margin: "30px 0"}}>
           <div id="projectCarousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               {selectedProject.images.map((image, index) => (
