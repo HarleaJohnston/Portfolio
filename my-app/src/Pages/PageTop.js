@@ -26,7 +26,7 @@ function PageTop() {
               <div className="line"></div>
               <br/>
               <div className="aboutMeBox">
-                <p className="fontSize">Hello! I'm Harlea, a senior at Neumont College of Computer Science pursuing my Bacholers in Web Development and Design. I'm dedicated to crafting seamless and responsive online experiences. My expertise lies in React, Javascript, HTML, and CSS, but I'm always eager to take on new challenges in the ever-evolving digital landscape. Let's collaborate and bring your digital vision to life.</p>
+                <p className="fontSize">Hello! I'm Harlea, a graduate of Neumont College of Computer Science where I earned my Bacholers of Science in Web Development and Design. I'm dedicated to crafting seamless and responsive online experiences. My expertise lies in React, Javascript, HTML, and CSS, but I'm always eager to take on new challenges in the ever-evolving digital landscape. Let's collaborate and bring your digital vision to life.</p>
               </div>
               <span>
                 <button className="space" onClick={openPDF}>Resume</button>
