@@ -228,6 +228,7 @@ const Projects = () => {
 
   return (
     <div className="container">
+      <div className='spacer1'></div>
       <div
         className="card-carousel"
         id="cardCarousel"
@@ -256,6 +257,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <div className='spacer1'></div>
     </div>
   );
 };

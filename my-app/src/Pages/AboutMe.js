@@ -1,5 +1,4 @@
 import React from 'react';
-import { Carousel, Card } from 'react-bootstrap';
 
 function AboutMe() {
 
@@ -9,36 +8,32 @@ function AboutMe() {
     { id: 3, image: "./imgs/SchoolImg2.png", title: 'Neumont College of Computer Science', description: 'While I am currently enrolled at Neumont University until August 2024, my involvement extends beyond academics. I proudly serve as an Academic Coach, specializing in web-based and English classes, supporting my peers in their educational journey. Additionally, I hold the role of Secretary in the Pokémon Club, where I contribute to fostering a vibrant community centered around shared interests and camaraderie.' },
    
   ];
-    return (
-      <div>
-        <div className="center">
-          <h1 className="titleFont">~ About Me ~</h1>
-        </div>
-        <div className='center'>
-          <Carousel className="infoCarousel">
-            {data.map((item) => (
-              <Carousel.Item key={item.id}>
-                <div className="card2">
-                  <div>
-                    <img className='imgSize2' src={item.image} alt="..." />
-                  </div>
-                  <div className='infoSize'>
-                  <h5 className="card-title">{item.title}</h5>
-                <p className="card-text">{item.description}</p>
-                  </div>
+  return (
+    <div >
+      <div className="center">
+        <h1 className="titleFont">~ About Me ~</h1>
+      </div>
 
+      <div className='rippedPaper'>
 
-                </div>
-              </Carousel.Item>
-            ))}
-          </Carousel>
+      <div className="about-section-container">
+        {data.map((item) => (
+          <div key={item.id} className="card2 about-section">
+            <div>
+              <img className="imgSize2" src={item.image} alt={item.title} />
+            </div>
+            <div className="infoSize">
+              <h5 className="card-title">{item.title}</h5>
+              <p className="card-text">{item.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
 
-          <div className="spacer"></div>
-        </div>
+      <div className="spacer"></div>
+    </div>
   </div>
-  
-    );
-  }
-  
-  export default AboutMe;
-  
+  );
+}
+
+export default AboutMe;

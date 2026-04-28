@@ -29,6 +29,7 @@
 .imgSize {
   width: 80%;
   max-width: 100%; 
+  
 }
 
 .introBox {
@@ -97,9 +98,17 @@ justify-content: space-around;}
   height: 200px;
 }
 
+.spacer1{
+  height: 50px;
+}
+
 .spacer2{
   height: 490px;
 }
+
+
+
+
 
 .collage{
   background-image: url("./Imgs/collage.png");
@@ -165,7 +174,9 @@ justify-content: space-around;}
   margin: 0px 5px 0px 0px;
 }
 
-/* Carousel Styling */
+.about-section-container{
+  gap: 20px;
+}
 
 .infoCarousel {
   width: 80%;
@@ -175,26 +186,26 @@ justify-content: space-around;}
 .card2{
   width: 75%;
   height: 400px;
-  background: #E9E2D0;
-  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
   display: flex;
   flex-direction: row;
   padding: 25px 25px ;
   margin: 25px 25px;
   border-radius: 7px;
-  margin-left: 175px;
+  margin-left: 235px;
+  margin-bottom: 50px;
 }
 
 .imgSize2{
   display: flex;
-  width: 90%;
-  margin-top: -50px;
+  width: 80%;
+  margin-top: -65px;
   justify-content: center;
+
 
 }
 
 .infoSize{
-  width: 65%;
+  width: 45%;
 }
 
 .cardCarousel {
@@ -215,6 +226,16 @@ justify-content: space-around;}
 
 .chart{
   width: 70%;
+}
+
+.rippedPaper{
+  background-image: url("./Imgs/rippedPaperImg.png");
+  background-repeat: repeat-y;          
+  background-position: center top;        
+  background-size: auto; 
+  display:flex;
+  justify-content: center;
+  
 }
 
 @media (min-width: 200px) and (max-width: 600px) {

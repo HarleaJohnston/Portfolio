@@ -1,18 +1,18 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
 
-const MyNavbar = () => {
+const MyNavbar = ({ setCurrentPage }) => {
   return (
-    <div>
-        <div class="container">
-            <header class="d-flex justify-content-center py-3">
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#Home" class="nav-link" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#AboutMe" class="nav-link">About Me</a></li>
-                <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
-            </ul>
-            </header>
-        </div>
+    <div className="container">
+      <header className="d-flex justify-content-center py-3">
+        <ul className="nav nav-pills">
+          <li className="nav-item">
+            <button className="nav-link" onClick={() => setCurrentPage('Projects')}>Projects</button>
+          </li>
+          <li className="nav-item">
+            <button className="nav-link" onClick={() => setCurrentPage('AboutMe')}>About Me</button>
+          </li>
+        </ul>
+      </header>
     </div>
   );
 };
